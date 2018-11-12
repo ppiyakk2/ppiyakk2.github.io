@@ -80,7 +80,7 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:ppiyakk2/ppiyakk2.github.io.git
-  branch: gh-pages
+  branch: master
 
 feed:
   type: atom
@@ -92,6 +92,3 @@ feed:
   content_limit_delim: ' '
   order_by: -date
 
-
-plugins:
-- hexo-deployer-git
